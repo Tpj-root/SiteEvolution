@@ -67,7 +67,7 @@ www.1tamilmv.sale.	300	IN	A	104.21.21.9
   </tr>
   <tr>
   <td style="width: 50px; word-wrap: break-word;">1</td>
-    <td style="width: 50px; word-wrap: break-word;">Dec 29 2024</td>
+    <td style="width: 50px; word-wrap: break-word;">Dec 29</td>
   <td style="width: 150px; word-wrap: break-word;">U1</td>
   <td style="width: 150px; word-wrap: break-word;">www.1tamilmv.uno</td>
   <td style="width: 150px; word-wrap: break-word;">104.21.85.41, 172.67.202.69</td>
@@ -78,7 +78,7 @@ www.1tamilmv.sale.	300	IN	A	104.21.21.9
 </tr>
   <tr>
   <td style="width: 50px; word-wrap: break-word;">2</td>
-   <td style="width: 50px; word-wrap: break-word;">Dec 30 2024</td>
+   <td style="width: 50px; word-wrap: break-word;">Dec 30</td>
   <td style="width: 150px; word-wrap: break-word;">U2</td>
   <td style="width: 150px; word-wrap: break-word;">www.1tamilmv.sale</td>
   <td style="width: 150px; word-wrap: break-word;">172.67.195.167, 104.21.21.9</td>
