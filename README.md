@@ -115,7 +115,7 @@ www.1tamilmv.sale.	300	IN	A	104.21.21.9
   <tr>
   <td style="width: 50px; word-wrap: break-word;">2</td>
     <td style="width: 50px; word-wrap: break-word;">Dec 30</td>
-  <td style="width: 150px; word-wrap: break-word;">www.1tamilmv.uno</td>
+  <td style="width: 150px; word-wrap: break-word;">www.1tamilmv.sale</td>
   <td style="width: 150px; word-wrap: break-word;">Online</td>
   <td style="width: 150px; word-wrap: break-word;">Restrict</td>
   <td style="width: 150px; word-wrap: break-word;">Online</td>
@@ -316,7 +316,7 @@ PING www.1tamilmv.sale (104.21.21.9) 56(84) bytes of data.
 
 
 
-
+**BSNL DNS DETAILS**
 https://99-networks.com/bsnl-dns-server-high-speed-internet/
 
 
