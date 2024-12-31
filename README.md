@@ -87,6 +87,39 @@ www.1tamilmv.sale.	300	IN	A	104.21.21.9
   <td style="width: 200px; word-wrap: break-word;">Online</td>
   <td style="width: 200px; word-wrap: break-word;">U2</td>
 </tr>
+  <tr>
+  <td style="width: 50px; word-wrap: break-word;">3</td>
+   <td style="width: 50px; word-wrap: break-word;">Dec 31</td>
+  <td style="width: 150px; word-wrap: break-word;">U1,U2</td>
+  <td style="width: 150px; word-wrap: break-word;">www.1tamilmv.{uno,sale}</td>
+  <td style="width: 150px; word-wrap: break-word;">Same 4 IP's</td>
+  <td style="width: 150px; word-wrap: break-word;">Cloudflare</td>
+  <td style="width: 200px; word-wrap: break-word;">1</td>
+  <td style="width: 200px; word-wrap: break-word;">Online</td>
+  <td style="width: 200px; word-wrap: break-word;">U2 and U1 Online</td>
+</tr>
+  <tr>
+  <td style="width: 50px; word-wrap: break-word;">-</td>
+   <td style="width: 50px; word-wrap: break-word;">-</td>
+  <td style="width: 150px; word-wrap: break-word;">-</td>
+  <td style="width: 150px; word-wrap: break-word;">2025</td>
+  <td style="width: 150px; word-wrap: break-word;">-</td>
+  <td style="width: 150px; word-wrap: break-word;">-</td>
+  <td style="width: 200px; word-wrap: break-word;">-</td>
+  <td style="width: 200px; word-wrap: break-word;">-</td>
+  <td style="width: 200px; word-wrap: break-word;">-</td>
+</tr>
+  <tr>
+  <td style="width: 50px; word-wrap: break-word;">4</td>
+   <td style="width: 50px; word-wrap: break-word;">Jan 1</td>
+  <td style="width: 150px; word-wrap: break-word;">U1,U2</td>
+  <td style="width: 150px; word-wrap: break-word;">www.1tamilmv.{uno,sale}</td>
+  <td style="width: 150px; word-wrap: break-word;">Same 4 IP's</td>
+  <td style="width: 150px; word-wrap: break-word;">Cloudflare</td>
+  <td style="width: 200px; word-wrap: break-word;">1</td>
+  <td style="width: 200px; word-wrap: break-word;">-</td>
+  <td style="width: 200px; word-wrap: break-word;">U2 and U1 Online</td>
+</tr>
 </table>
 
 
@@ -115,6 +148,16 @@ www.1tamilmv.sale.	300	IN	A	104.21.21.9
   <tr>
   <td style="width: 50px; word-wrap: break-word;">2</td>
     <td style="width: 50px; word-wrap: break-word;">Dec 30</td>
+  <td style="width: 150px; word-wrap: break-word;">www.1tamilmv.sale</td>
+  <td style="width: 150px; word-wrap: break-word;">Online</td>
+  <td style="width: 150px; word-wrap: break-word;">Restrict</td>
+  <td style="width: 150px; word-wrap: break-word;">Online</td>
+  <td style="width: 150px; word-wrap: break-word;">not_check</td>
+    <td style="width: 150px; word-wrap: break-word;">BSNL has restricted access to that site. If you change the DNS, you should be able to access it.</td>
+</tr>
+  <tr>
+  <td style="width: 50px; word-wrap: break-word;">3</td>
+    <td style="width: 50px; word-wrap: break-word;">Dec 31</td>
   <td style="width: 150px; word-wrap: break-word;">www.1tamilmv.sale</td>
   <td style="width: 150px; word-wrap: break-word;">Online</td>
   <td style="width: 150px; word-wrap: break-word;">Restrict</td>
