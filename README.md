@@ -190,16 +190,7 @@ www.1tamilmv.sale.	300	IN	A	104.21.21.9
 
 
 
-
-
-
 ## SiteFlow <a name = "flow"></a>
-```mermaid
-graph LR;
-
-```
-
-
 ```mermaid
 graph TD;
     style R fill:#f00,stroke:#000,stroke-width:2px;
