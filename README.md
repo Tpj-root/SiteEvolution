@@ -210,11 +210,9 @@ graph TD;
     
     G[Online]
     R[Offline]
-    G1[1tamilmv.uno]--Redirect-->G3[1tamilmv.legal]
-    G2[1tamilmv.sale]--Redirect-->[1tamilmv.legal]
+    G1[1tamilmv.uno] -->|Redirect| G3[1tamilmv.legal]
+    G2[1tamilmv.sale] -->|Redirect| G3[1tamilmv.legal]
 ```
-
-
 
 
 
