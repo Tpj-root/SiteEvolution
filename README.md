@@ -205,11 +205,17 @@ graph TD;
     style R fill:#f00,stroke:#000,stroke-width:2px;
     style G fill:#0f0,stroke:#000,stroke-width:2px;
     
+    
+
+    style G1 fill:#0f0,stroke:#000,stroke-width:2px;
+    style G2 fill:#0f0,stroke:#000,stroke-width:2px;
+    style G3 fill:#0f0,stroke:#000,stroke-width:2px;
+    
     G[Online]
     R[Offline]
     
-    G[1tamilmv.uno] --Redirect--> G[1tamilmv.legal];
-    G[1tamilmv.sale] --Redirect--> G[1tamilmv.legal];
+    G1[1tamilmv.uno] --Redirect--> G3[1tamilmv.legal];
+    G2[1tamilmv.sale] --Redirect--> [1tamilmv.legal];
 
 ```
 
