@@ -196,8 +196,8 @@ www.1tamilmv.sale.	300	IN	A	104.21.21.9
 ## SiteFlow <a name = "flow"></a>
 ```mermaid
 graph LR;
-    1tamilmv.uno--Redirect-->1tamilmv.legal;
-    1tamilmv.sale--Redirect-->1tamilmv.legal;
+    1tamilmv.uno{online}--Redirect-->1tamilmv.legal[Domain];
+    1tamilmv.sale{online}--Redirect-->1tamilmv.legal[Domain];
 ```
 
 
