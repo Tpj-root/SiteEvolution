@@ -15,16 +15,12 @@ sudo nano /etc/resolv.conf
 #nameserver 218.248.112.1
 #nameserver 218.248.112.65
 #nameserver 2001:4490:3ffe:13::4
-# NOTE: the libc resolver may not support more than 3 nameservers.
-# The nameservers listed below may not be recognized.
 #nameserver 2001:4490:3ffe:13::c
 ############
 # modify the DNS entries
 nameserver 8.8.8.8
 nameserver 8.8.4.4
 nameserver 2001:4490:3ffe:13::4
-# NOTE: the libc resolver may not support more than 3 nameservers.
-# The nameservers listed below may not be recognized.
 nameserver 2001:4490:3ffe:13::c
 
 ```
