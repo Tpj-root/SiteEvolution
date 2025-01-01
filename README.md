@@ -202,11 +202,14 @@ graph LR;
 
 ```mermaid
 graph TD;
-    style RED fill:#f00,stroke:#000,stroke-width:2px;
-    style GREEN fill:#0f0,stroke:#000,stroke-width:2px;
-
-    GREEN[1tamilmv.uno] --Redirect--> GREEN[1tamilmv.legal];
-    GREEN[1tamilmv.sale] --Redirect--> GREEN[1tamilmv.legal];
+    style R fill:#f00,stroke:#000,stroke-width:2px;
+    style G fill:#0f0,stroke:#000,stroke-width:2px;
+    
+    G[Online]
+    R[Offline]
+    
+    G[1tamilmv.uno] --Redirect--> G[1tamilmv.legal];
+    G[1tamilmv.sale] --Redirect--> G[1tamilmv.legal];
 
 ```
 
