@@ -1,0 +1,8 @@
+PING www.1tamilmv.sale (104.21.21.9) 56(84) bytes of data.
+64 bytes from 104.21.21.9 (104.21.21.9): icmp_seq=1 ttl=58 time=63.4 ms
+64 bytes from 104.21.21.9 (104.21.21.9): icmp_seq=2 ttl=58 time=60.6 ms
+64 bytes from 104.21.21.9 (104.21.21.9): icmp_seq=3 ttl=58 time=55.4 ms
+
+--- www.1tamilmv.sale ping statistics ---
+4 packets transmitted, 3 received, 25% packet loss, time 3005ms
+rtt min/avg/max/mdev = 55.390/59.783/63.358/3.304 ms

@@ -2,6 +2,9 @@
 The previously known website, Tamilrockers, has transitioned to 1TamilMV. Analyzing its functionality involves studying its behavior with daily scans.
 
 
+**Powered by Invision Community**
+
+https://invisioncommunity.com/
 
 
 
@@ -27,9 +30,16 @@ nameserver 2001:4490:3ffe:13::c
 
 IP_LIST
 
-www.1tamilmv.sale.	300	IN	A	172.67.195.167
-www.1tamilmv.sale.	300	IN	A	104.21.21.9
+```
+www.1tamilmv.uno	104.21.85.41
+www.1tamilmv.uno	172.67.202.69
 
+www.1tamilmv.sale	104.21.21.9
+www.1tamilmv.sale	172.67.195.167
+
+www.1tamilmv.legal	104.21.33.236
+www.1tamilmv.legal	172.67.151.173
+```
 
 
 
@@ -117,6 +127,17 @@ www.1tamilmv.sale.	300	IN	A	104.21.21.9
   <td style="width: 200px; word-wrap: break-word;">-</td>
   <td style="width: 200px; word-wrap: break-word;">U1,U2 and U3 Online</td>
 </tr>
+  <tr>
+  <td style="width: 50px; word-wrap: break-word;">5</td>
+   <td style="width: 50px; word-wrap: break-word;">Jan 2</td>
+  <td style="width: 150px; word-wrap: break-word;">U3</td>
+  <td style="width: 150px; word-wrap: break-word;">www.1tamilmv.legal</td>
+  <td style="width: 150px; word-wrap: break-word;">104.21.33.236,172.67.151.173</td>
+  <td style="width: 150px; word-wrap: break-word;">Cloudflare</td>
+  <td style="width: 200px; word-wrap: break-word;">1</td>
+  <td style="width: 200px; word-wrap: break-word;">-</td>
+  <td style="width: 200px; word-wrap: break-word;">U1,U2 and U3 Online</td>
+</tr>
 </table>
 
 
@@ -175,6 +196,16 @@ www.1tamilmv.sale.	300	IN	A	104.21.21.9
   <tr>
   <td style="width: 50px; word-wrap: break-word;">4</td>
     <td style="width: 50px; word-wrap: break-word;">JAN 1</td>
+  <td style="width: 150px; word-wrap: break-word;">www.1tamilmv.legal</td>
+  <td style="width: 150px; word-wrap: break-word;">Online</td>
+  <td style="width: 150px; word-wrap: break-word;">Restrict</td>
+  <td style="width: 150px; word-wrap: break-word;">Online</td>
+  <td style="width: 150px; word-wrap: break-word;">not_check</td>
+    <td style="width: 150px; word-wrap: break-word;">""</td>
+</tr>
+  <tr>
+  <td style="width: 50px; word-wrap: break-word;">5</td>
+    <td style="width: 50px; word-wrap: break-word;">JAN 2</td>
   <td style="width: 150px; word-wrap: break-word;">www.1tamilmv.legal</td>
   <td style="width: 150px; word-wrap: break-word;">Online</td>
   <td style="width: 150px; word-wrap: break-word;">Restrict</td>

@@ -1,0 +1,9 @@
+PING www.1tamilmv.legal (172.67.151.173) 56(84) bytes of data.
+64 bytes from 172.67.151.173 (172.67.151.173): icmp_seq=1 ttl=58 time=62.5 ms
+64 bytes from 172.67.151.173 (172.67.151.173): icmp_seq=2 ttl=58 time=64.3 ms
+64 bytes from 172.67.151.173 (172.67.151.173): icmp_seq=3 ttl=58 time=62.6 ms
+64 bytes from 172.67.151.173 (172.67.151.173): icmp_seq=4 ttl=58 time=61.1 ms
+
+--- www.1tamilmv.legal ping statistics ---
+4 packets transmitted, 4 received, 0% packet loss, time 3006ms
+rtt min/avg/max/mdev = 61.065/62.596/64.251/1.128 ms
