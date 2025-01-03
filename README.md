@@ -285,6 +285,37 @@ https://github.com/ngosang/trackerslist/issues/216
 
 
 
+**Whois that**
+
+### The uploader used software list 
+
+
+<table>
+<tr>
+    <th>No</th>
+    <th>Nick_Name</th>    
+    <th>DATE</th>
+    <th>Software_V</th>
+    <th>Update</th>
+    <th>topic</th>
+    <th>{Info}</th>
+</tr>
+<tr>
+  <td style="width: 50px; word-wrap: break-word;">1</td>
+  <td style="width: 50px; word-wrap: break-word;">Elite</td>
+  <td style="width: 50px; word-wrap: break-word;">Jan 03</td>
+  <td style="width: 150px; word-wrap: break-word;">BitTorrent/7.11</td>
+  <td style="width: 150px; word-wrap: break-word;">BitTorrent 7.11.0 For Windows (build 46555)</td>
+  <td style="width: 150px; word-wrap: break-word;">185172-0</td>
+  <td style="width: 150px; word-wrap: break-word;">BSNL has restricted access to that site. If you change the DNS, you should be able to access it.</td>
+</tr>
+</table>
+
+
+
+
+
+
 
 
 ```
