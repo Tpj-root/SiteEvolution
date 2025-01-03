@@ -307,7 +307,7 @@ https://github.com/ngosang/trackerslist/issues/216
   <td style="width: 150px; word-wrap: break-word;">BitTorrent/7.11</td>
   <td style="width: 150px; word-wrap: break-word;">BitTorrent 7.11.0 For Windows (build 46555)</td>
   <td style="width: 150px; word-wrap: break-word;">185172-0</td>
-  <td style="width: 150px; word-wrap: break-word;">BSNL has restricted access to that site. If you change the DNS, you should be able to access it.</td>
+  <td style="width: 150px; word-wrap: break-word;">-</td>
 </tr>
 </table>
 
