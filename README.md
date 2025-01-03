@@ -285,7 +285,32 @@ https://github.com/ngosang/trackerslist/issues/216
 
 
 
-**Whois that**
+
+
+
+
+.Torrent file Decoder
+
+
+
+
+```
+sudo apt install python3-libtorrent
+
+python3 Decoder_T2txt.py <2024.torrent>
+
+```
+
+
+
+
+
+
+
+
+
+
+**Whois That Metadata Info:**
 
 ### The uploader used software list 
 
@@ -293,12 +318,12 @@ https://github.com/ngosang/trackerslist/issues/216
 <table>
 <tr>
     <th>No</th>
-    <th>Nick_Name</th>    
+    <th>Nick_Name</th>
     <th>DATE</th>
     <th>Software_V</th>
     <th>Update</th>
     <th>topic</th>
-    <th>{Info}</th>
+    <th>{hollywood[H],kollywood[K],tollywood[T],mollywood[M],bollywood[B]}</th>
 </tr>
 <tr>
   <td style="width: 50px; word-wrap: break-word;">1</td>
@@ -307,7 +332,7 @@ https://github.com/ngosang/trackerslist/issues/216
   <td style="width: 150px; word-wrap: break-word;">BitTorrent/7.11</td>
   <td style="width: 150px; word-wrap: break-word;">BitTorrent 7.11.0 For Windows (build 46555)</td>
   <td style="width: 150px; word-wrap: break-word;">185172-0</td>
-  <td style="width: 150px; word-wrap: break-word;">-</td>
+  <td style="width: 150px; word-wrap: break-word;">H</td>
 </tr>
 </table>
 
