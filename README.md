@@ -314,6 +314,16 @@ python3 Decoder_T2txt.py <2024.torrent>
 
 ### The uploader used software list 
 
+```
+hollywood[H] --> American film
+kollywood[K] --> Tamil-language 
+tollywood[T] --> Telugu
+mollywood[M] --> Malayalam
+bollywood[B] --> Hindi
+
+```
+
+
 
 <table>
 <tr>
@@ -323,7 +333,7 @@ python3 Decoder_T2txt.py <2024.torrent>
     <th>Software_V</th>
     <th>Update</th>
     <th>topic</th>
-    <th>{hollywood[H],kollywood[K],tollywood[T],mollywood[M],bollywood[B]}</th>
+    <th>{[H],[K],[T],[M],[B]}</th>
 </tr>
 <tr>
   <td style="width: 50px; word-wrap: break-word;">1</td>
