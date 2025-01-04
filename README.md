@@ -149,6 +149,17 @@ www.1tamilmv.legal	172.67.151.173
   <td style="width: 200px; word-wrap: break-word;">-</td>
   <td style="width: 200px; word-wrap: break-word;">U1,U2 and U3 Online</td>
 </tr>
+  <tr>
+  <td style="width: 50px; word-wrap: break-word;">6</td>
+   <td style="width: 50px; word-wrap: break-word;">Jan 4</td>
+  <td style="width: 150px; word-wrap: break-word;">U3</td>
+  <td style="width: 150px; word-wrap: break-word;">www.1tamilmv.legal</td>
+  <td style="width: 150px; word-wrap: break-word;">104.21.33.236,172.67.151.173</td>
+  <td style="width: 150px; word-wrap: break-word;">Cloudflare</td>
+  <td style="width: 200px; word-wrap: break-word;">1</td>
+  <td style="width: 200px; word-wrap: break-word;">-</td>
+  <td style="width: 200px; word-wrap: break-word;">U1,U2 and U3 Online</td>
+</tr>
 </table>
 
 
@@ -227,6 +238,16 @@ www.1tamilmv.legal	172.67.151.173
 <tr>
   <td style="width: 50px; word-wrap: break-word;">5</td>
   <td style="width: 50px; word-wrap: break-word;">JAN 3</td>
+  <td style="width: 150px; word-wrap: break-word;">www.1tamilmv.legal</td>
+  <td style="width: 150px; word-wrap: break-word;">Online</td>
+  <td style="width: 150px; word-wrap: break-word;">Restrict</td>
+  <td style="width: 150px; word-wrap: break-word;">Online</td>
+  <td style="width: 150px; word-wrap: break-word;">not_check</td>
+  <td style="width: 150px; word-wrap: break-word;">""</td>
+</tr>
+<tr>
+  <td style="width: 50px; word-wrap: break-word;">6</td>
+  <td style="width: 50px; word-wrap: break-word;">JAN 4</td>
   <td style="width: 150px; word-wrap: break-word;">www.1tamilmv.legal</td>
   <td style="width: 150px; word-wrap: break-word;">Online</td>
   <td style="width: 150px; word-wrap: break-word;">Restrict</td>
@@ -333,19 +354,109 @@ bollywood[B] --> Hindi
     <th>Software_V</th>
     <th>Update</th>
     <th>topic</th>
+    <th>type</th>
+    <th>Film</th>
+    <th>Connection</th>
     <th>{[H],[K],[T],[M],[B]}</th>
 </tr>
 <tr>
   <td style="width: 50px; word-wrap: break-word;">1</td>
-  <td style="width: 50px; word-wrap: break-word;">Elite</td>
+  <td style="width: 50px; word-wrap: break-word;">Screen(Elite)</td>
   <td style="width: 50px; word-wrap: break-word;">Jan 03</td>
   <td style="width: 150px; word-wrap: break-word;">BitTorrent/7.11</td>
   <td style="width: 150px; word-wrap: break-word;">BitTorrent 7.11.0 For Windows (build 46555)</td>
-  <td style="width: 150px; word-wrap: break-word;">185172-0</td>
+  <td style="width: 150px; word-wrap: break-word;">185172-0,185192</td>
+  <td style="width: 150px; word-wrap: break-word;">185172</td>
+  <td style="width: 150px; word-wrap: break-word;">Wallace & Gromit: Vengeance Most Fowl (2025)</td>
   <td style="width: 150px; word-wrap: break-word;">H</td>
+  <td style="width: 150px; word-wrap: break-word;">H</td>
+</tr>
+<tr>
+  <td style="width: 50px; word-wrap: break-word;">2</td>
+  <td style="width: 50px; word-wrap: break-word;">S.P.I.D.E.R(Moderators)</td>
+  <td style="width: 50px; word-wrap: break-word;">Jan 04</td>
+  <td style="width: 150px; word-wrap: break-word;">qBittorrent v5.0.2 on 03 Jan 2025, BitTorrent/7.11 on 03 Jan 2025</td>
+  <td style="width: 150px; word-wrap: break-word;">https://www.fosshub.com/qBittorrent-old.html</td>
+  <td style="width: 150px; word-wrap: break-word;">184915-0</td>
+  <td style="width: 150px; word-wrap: break-word;">185172</td>
+  <td style="width: 150px; word-wrap: break-word;">The Flash (2014)</td>
+  <td style="width: 150px; word-wrap: break-word;">Screen,S.P.I.D.E.R{184085} </td>
+  <td style="width: 150px; word-wrap: break-word;">H</td>
+</tr>
+<tr>
+  <td style="width: 50px; word-wrap: break-word;">3</td>
+  <td style="width: 50px; word-wrap: break-word;"> 𝓣𝓜𝓥 𝓛𝓸𝓿𝓮𝓻 (Elite)</td>
+  <td style="width: 50px; word-wrap: break-word;">Jan 04</td>
+  <td style="width: 150px; word-wrap: break-word;">qBittorrent v5.0.1 on 03 Jan 2025</td>
+  <td style="width: 150px; word-wrap: break-word;">https://www.fosshub.com/qBittorrent-old.html</td>
+  <td style="width: 150px; word-wrap: break-word;">185193-0,185191</td>
+  <td style="width: 150px; word-wrap: break-word;">185172</td>
+  <td style="width: 150px; word-wrap: break-word;">Sonic the Hedgehog 3 (2024)</td>
+  <td style="width: 150px; word-wrap: break-word;">-</td>
+  <td style="width: 150px; word-wrap: break-word;">H</td>
+</tr>
+<tr>
+  <td style="width: 50px; word-wrap: break-word;">4</td>
+  <td style="width: 50px; word-wrap: break-word;"> Olan (Moderators)</td>
+  <td style="width: 50px; word-wrap: break-word;">Jan 04</td>
+  <td style="width: 150px; word-wrap: break-word;">qBittorrent v5.0.3 on 03 Jan 2025</td>
+  <td style="width: 150px; word-wrap: break-word;">https://www.fosshub.com/qBittorrent-old.html</td>
+  <td style="width: 150px; word-wrap: break-word;">185196-0</td>
+  <td style="width: 150px; word-wrap: break-word;">WEB-DL</td>
+  <td style="width: 150px; word-wrap: break-word;">Saakaaram (2024) </td>
+  <td style="width: 150px; word-wrap: break-word;">-</td>
+  <td style="width: 150px; word-wrap: break-word;">T</td>
+</tr>
+<tr>
+  <td style="width: 50px; word-wrap: break-word;">5</td>
+  <td style="width: 50px; word-wrap: break-word;">  SRK Don  (Moderators)</td>
+  <td style="width: 50px; word-wrap: break-word;">Jan 04</td>
+  <td style="width: 150px; word-wrap: break-word;">-</td>
+  <td style="width: 150px; word-wrap: break-word;">-</td>
+  <td style="width: 150px; word-wrap: break-word;">185197-0</td>
+  <td style="width: 150px; word-wrap: break-word;">WEB-DL</td>
+  <td style="width: 150px; word-wrap: break-word;">The Rana Daggubati Show (2025) S01 EP07 </td>
+  <td style="width: 150px; word-wrap: break-word;">-</td>
+  <td style="width: 150px; word-wrap: break-word;">T</td>
+</tr>
+<tr>
+  <td style="width: 50px; word-wrap: break-word;">6</td>
+  <td style="width: 50px; word-wrap: break-word;">TMV RULER(Moderators)</td>
+  <td style="width: 50px; word-wrap: break-word;">Jan 04</td>
+  <td style="width: 150px; word-wrap: break-word;">qBittorrent v5.0.3 on 03 Jan 2025</td>
+  <td style="width: 150px; word-wrap: break-word;">-</td>
+  <td style="width: 150px; word-wrap: break-word;">185200-0</td>
+  <td style="width: 150px; word-wrap: break-word;">BluRay</td>
+  <td style="width: 150px; word-wrap: break-word;">A Legend (2025)</td>
+  <td style="width: 150px; word-wrap: break-word;">-</td>
+  <td style="width: 150px; word-wrap: break-word;">H</td>
+</tr>
+<tr>
+  <td style="width: 50px; word-wrap: break-word;">7</td>
+  <td style="width: 50px; word-wrap: break-word;"> J.A.R.V.I.S. (TMV Releaser)</td>
+  <td style="width: 50px; word-wrap: break-word;">Jan 04</td>
+  <td style="width: 150px; word-wrap: break-word;"> BitTorrent/7.11 on 04 Jan 2025</td>
+  <td style="width: 150px; word-wrap: break-word;">-</td>
+  <td style="width: 150px; word-wrap: break-word;">185201-0</td>
+  <td style="width: 150px; word-wrap: break-word;">HQ PreDVD</td>
+  <td style="width: 150px; word-wrap: break-word;">Xtreme (2025) </td>
+  <td style="width: 150px; word-wrap: break-word;">-</td>
+  <td style="width: 150px; word-wrap: break-word;">K</td>
 </tr>
 </table>
 
+
+IP_match
+
+```
+135.181.239.48 qBittorrent v5.0.3
+
+that ip winodws server port open
+
+http://135.181.239.48/
+
+https://learn.microsoft.com/en-in/answers/questions/640298/how-do-i-disable-this-feature
+```
 
 
 
