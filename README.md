@@ -31,6 +31,20 @@ nameserver 2001:4490:3ffe:13::c
 IP_LIST
 
 ```
+current official domain
+
+www.1tamilmv.re		104.21.80.1
+www.1tamilmv.re		104.21.64.1
+www.1tamilmv.re		104.21.48.1
+www.1tamilmv.re		104.21.16.1
+www.1tamilmv.re		104.21.96.1
+www.1tamilmv.re		104.21.32.1
+www.1tamilmv.re		104.21.112.1
+
+
+
+redirect domains
+
 www.1tamilmv.uno	104.21.85.41
 www.1tamilmv.uno	172.67.202.69
 
@@ -39,7 +53,28 @@ www.1tamilmv.sale	172.67.195.167
 
 www.1tamilmv.legal	104.21.33.236
 www.1tamilmv.legal	172.67.151.173
+
+www.1tamilmv.com	104.21.94.224
+www.1tamilmv.com	172.67.140.219
+
+
 ```
+
+
+
+```
+https://www.afnic.fr/en/domain-names-and-support/everything-there-is-to-know-about-domain-names/find-a-domain-name-or-a-holder-using-whois/
+
+https://sarek.fi/
+
+
+```
+
+
+
+
+
+
 
 
 
@@ -139,7 +174,7 @@ www.1tamilmv.legal	172.67.151.173
   <td style="width: 200px; word-wrap: break-word;">U1,U2 and U3 Online</td>
 </tr>
   <tr>
-  <td style="width: 50px; word-wrap: break-word;">5</td>
+  <td style="width: 50px; word-wrap: break-word;">6</td>
    <td style="width: 50px; word-wrap: break-word;">Jan 3</td>
   <td style="width: 150px; word-wrap: break-word;">U3</td>
   <td style="width: 150px; word-wrap: break-word;">www.1tamilmv.legal</td>
@@ -149,9 +184,9 @@ www.1tamilmv.legal	172.67.151.173
   <td style="width: 200px; word-wrap: break-word;">-</td>
   <td style="width: 200px; word-wrap: break-word;">U1,U2 and U3 Online</td>
 </tr>
-  <tr>
-  <td style="width: 50px; word-wrap: break-word;">6</td>
-   <td style="width: 50px; word-wrap: break-word;">Jan 4</td>
+<tr>
+  <td style="width: 50px; word-wrap: break-word;">7</td>
+  <td style="width: 50px; word-wrap: break-word;">Jan 4</td>
   <td style="width: 150px; word-wrap: break-word;">U3</td>
   <td style="width: 150px; word-wrap: break-word;">www.1tamilmv.legal</td>
   <td style="width: 150px; word-wrap: break-word;">104.21.33.236,172.67.151.173</td>
@@ -159,6 +194,28 @@ www.1tamilmv.legal	172.67.151.173
   <td style="width: 200px; word-wrap: break-word;">1</td>
   <td style="width: 200px; word-wrap: break-word;">-</td>
   <td style="width: 200px; word-wrap: break-word;">U1,U2 and U3 Online</td>
+</tr>
+<tr>
+  <td style="width: 50px; word-wrap: break-word;">8</td>
+  <td style="width: 50px; word-wrap: break-word;">Jan 8</td>
+  <td style="width: 150px; word-wrap: break-word;">U4</td>
+  <td style="width: 150px; word-wrap: break-word;">www.1tamilmv.re</td>
+  <td style="width: 150px; word-wrap: break-word;">104.21.33.236,172.67.151.173</td>
+  <td style="width: 150px; word-wrap: break-word;">Cloudflare</td>
+  <td style="width: 200px; word-wrap: break-word;">1</td>
+  <td style="width: 200px; word-wrap: break-word;">-</td>
+  <td style="width: 200px; word-wrap: break-word;">U1,U2,U3 and U4 Online</td>
+</tr>
+<tr>
+  <td style="width: 50px; word-wrap: break-word;">8</td>
+  <td style="width: 50px; word-wrap: break-word;">Jan 8</td>
+  <td style="width: 150px; word-wrap: break-word;">U5</td>
+  <td style="width: 150px; word-wrap: break-word;">www.1tamilmv.com</td>
+  <td style="width: 150px; word-wrap: break-word;">104.21.33.236,172.67.151.173</td>
+  <td style="width: 150px; word-wrap: break-word;">Cloudflare</td>
+  <td style="width: 200px; word-wrap: break-word;">1</td>
+  <td style="width: 200px; word-wrap: break-word;">-</td>
+  <td style="width: 200px; word-wrap: break-word;">U1,U2,U3,u4 and U5 Online</td>
 </tr>
 </table>
 
@@ -255,7 +312,29 @@ www.1tamilmv.legal	172.67.151.173
   <td style="width: 150px; word-wrap: break-word;">not_check</td>
   <td style="width: 150px; word-wrap: break-word;">""</td>
 </tr>
+<tr>
+  <td style="width: 50px; word-wrap: break-word;">7</td>
+  <td style="width: 50px; word-wrap: break-word;">JAN 8</td>
+  <td style="width: 150px; word-wrap: break-word;">www.1tamilmv.re</td>
+  <td style="width: 150px; word-wrap: break-word;">Online</td>
+  <td style="width: 150px; word-wrap: break-word;">Restrict</td>
+  <td style="width: 150px; word-wrap: break-word;">Online</td>
+  <td style="width: 150px; word-wrap: break-word;">not_check</td>
+  <td style="width: 150px; word-wrap: break-word;">""</td>
+</tr>
+<tr>
+  <td style="width: 50px; word-wrap: break-word;">7</td>
+  <td style="width: 50px; word-wrap: break-word;">JAN 8</td>
+  <td style="width: 150px; word-wrap: break-word;">www.1tamilmv.com</td>
+  <td style="width: 150px; word-wrap: break-word;">Online</td>
+  <td style="width: 150px; word-wrap: break-word;">Restrict</td>
+  <td style="width: 150px; word-wrap: break-word;">Online</td>
+  <td style="width: 150px; word-wrap: break-word;">not_check</td>
+  <td style="width: 150px; word-wrap: break-word;">""</td>
+</tr>
 </table>
+
+
 
 
 
@@ -456,6 +535,9 @@ that ip winodws server port open
 http://135.181.239.48/
 
 https://learn.microsoft.com/en-in/answers/questions/640298/how-do-i-disable-this-feature
+
+
+sudo nmap -A -T4 135.181.239.48
 ```
 
 
