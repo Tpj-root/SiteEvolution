@@ -346,11 +346,15 @@ graph TD;
     style G1 fill:#0f0,stroke:#000,stroke-width:2px;
     style G2 fill:#0f0,stroke:#000,stroke-width:2px;
     style G3 fill:#0f0,stroke:#000,stroke-width:2px;
+    style G4 fill:#0f0,stroke:#000,stroke-width:2px;
+    style G5 fill:#0f0,stroke:#000,stroke-width:2px;
     
     G[Online]
     R[Offline]
-    G1[1tamilmv.uno] -->|Redirect| G3[1tamilmv.legal]
-    G2[1tamilmv.sale] -->|Redirect| G3[1tamilmv.legal]
+    G1[1tamilmv.uno] -->|Redirect| G5[1tamilmv.re]
+    G2[1tamilmv.sale] -->|Redirect| G5[1tamilmv.re]
+    G3[1tamilmv.legal] -->|Redirect| G5[1tamilmv.re]
+    G4[1tamilmv.com] -->|Redirect| G5[1tamilmv.re]
 ```
 
 
