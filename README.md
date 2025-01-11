@@ -404,6 +404,7 @@ https://sarek.fi/
 ## SiteFlow <a name = "flow"></a>
 ```mermaid
 graph TD;
+    style A fill:#B2BEB5,stroke:#000,stroke-width:2px;
     style R fill:#f00,stroke:#000,stroke-width:2px;
     style G fill:#0f0,stroke:#000,stroke-width:2px;
     style G1 fill:#0f0,stroke:#000,stroke-width:2px;
@@ -413,7 +414,8 @@ graph TD;
     style G5 fill:#0f0,stroke:#000,stroke-width:2px;
     
     G[Online]
-    R[Offline]
+    A[Offline]
+    R[Restrict]
     G1[1tamilmv.uno] -->|Redirect| G5[1tamilmv.re]
     G2[1tamilmv.sale] -->|Redirect| G5[1tamilmv.re]
     G3[1tamilmv.legal] -->|Redirect| G5[1tamilmv.re]
