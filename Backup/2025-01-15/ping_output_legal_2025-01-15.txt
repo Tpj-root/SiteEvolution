@@ -1,0 +1,9 @@
+PING www.1tamilmv.legal (104.21.33.236) 56(84) bytes of data.
+64 bytes from 104.21.33.236 (104.21.33.236): icmp_seq=1 ttl=58 time=32.4 ms
+64 bytes from 104.21.33.236 (104.21.33.236): icmp_seq=2 ttl=58 time=32.8 ms
+64 bytes from 104.21.33.236 (104.21.33.236): icmp_seq=3 ttl=58 time=32.7 ms
+64 bytes from 104.21.33.236 (104.21.33.236): icmp_seq=4 ttl=58 time=32.4 ms
+
+--- www.1tamilmv.legal ping statistics ---
+4 packets transmitted, 4 received, 0% packet loss, time 3004ms
+rtt min/avg/max/mdev = 32.356/32.571/32.840/0.207 ms
