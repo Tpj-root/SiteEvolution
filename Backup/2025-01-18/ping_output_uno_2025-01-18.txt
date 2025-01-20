@@ -1,0 +1,9 @@
+PING www.1tamilmv.uno (104.21.85.41) 56(84) bytes of data.
+64 bytes from 104.21.85.41 (104.21.85.41): icmp_seq=1 ttl=58 time=31.7 ms
+64 bytes from 104.21.85.41 (104.21.85.41): icmp_seq=2 ttl=58 time=31.6 ms
+64 bytes from 104.21.85.41 (104.21.85.41): icmp_seq=3 ttl=58 time=29.2 ms
+64 bytes from 104.21.85.41 (104.21.85.41): icmp_seq=4 ttl=58 time=28.6 ms
+
+--- www.1tamilmv.uno ping statistics ---
+4 packets transmitted, 4 received, 0% packet loss, time 3003ms
+rtt min/avg/max/mdev = 28.648/30.293/31.655/1.369 ms
