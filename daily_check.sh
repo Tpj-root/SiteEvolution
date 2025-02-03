@@ -7,7 +7,7 @@ today=$(date +\%Y-\%m-\%d)
 mkdir -p "Backup/$today"
 
 # Define the site suffixes (you can modify this array daily)
-Site_suffix=("uno" "sale" "legal" "re" "com")  # Add more suffixes if needed
+Site_suffix=("uno" "sale" "legal" "re" "com" "pm")  # Add more suffixes if needed
 
 # Loop over each site suffix
 for suffix in "${Site_suffix[@]}"; do
