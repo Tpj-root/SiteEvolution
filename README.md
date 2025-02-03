@@ -454,7 +454,7 @@ graph TD;
     G2[1tamilmv.sale] -->|Redirect| G5[1tamilmv.re]
     G3[1tamilmv.legal] -->|Redirect| G5[1tamilmv.re]
     G4[1tamilmv.com] -->|Redirect| G5[1tamilmv.re]
-    G5[1tamilmv.pm] -->|Redirect| G5[1tamilmv.re]
+    G6[1tamilmv.pm] -->|Redirect| G5[1tamilmv.re]
 ```
 
 
