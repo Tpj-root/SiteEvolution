@@ -3,11 +3,11 @@ Address:	8.8.8.8#53
 
 Non-authoritative answer:
 Name:	www.1tamilmv.pm
-Address: 104.21.22.127
-Name:	www.1tamilmv.pm
 Address: 172.67.205.9
 Name:	www.1tamilmv.pm
-Address: 2606:4700:3030::6815:167f
+Address: 104.21.22.127
 Name:	www.1tamilmv.pm
 Address: 2606:4700:3031::ac43:cd09
+Name:	www.1tamilmv.pm
+Address: 2606:4700:3030::6815:167f
 

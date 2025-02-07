@@ -3,9 +3,9 @@ Address:	8.8.8.8#53
 
 Non-authoritative answer:
 Name:	www.1tamilmv.com
-Address: 172.67.140.219
-Name:	www.1tamilmv.com
 Address: 104.21.94.224
+Name:	www.1tamilmv.com
+Address: 172.67.140.219
 Name:	www.1tamilmv.com
 Address: 2606:4700:3032::6815:5ee0
 Name:	www.1tamilmv.com
