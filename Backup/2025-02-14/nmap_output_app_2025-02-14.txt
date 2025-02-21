@@ -1,0 +1,535 @@
+Starting Nmap 7.80 ( https://nmap.org ) at 2025-02-14 17:02 IST
+NSE: Loaded 151 scripts for scanning.
+NSE: Script Pre-scanning.
+Initiating NSE at 17:02
+Completed NSE at 17:02, 0.00s elapsed
+Initiating NSE at 17:02
+Completed NSE at 17:02, 0.00s elapsed
+Initiating NSE at 17:02
+Completed NSE at 17:02, 0.00s elapsed
+Initiating Ping Scan at 17:02
+Scanning www.1tamilmv.app (104.21.72.210) [2 ports]
+Completed Ping Scan at 17:02, 0.03s elapsed (1 total hosts)
+Initiating Parallel DNS resolution of 1 host. at 17:02
+Completed Parallel DNS resolution of 1 host. at 17:02, 11.04s elapsed
+Initiating Connect Scan at 17:02
+Scanning www.1tamilmv.app (104.21.72.210) [1000 ports]
+Discovered open port 80/tcp on 104.21.72.210
+Discovered open port 443/tcp on 104.21.72.210
+Discovered open port 8080/tcp on 104.21.72.210
+Discovered open port 8443/tcp on 104.21.72.210
+Completed Connect Scan at 17:02, 3.93s elapsed (1000 total ports)
+Initiating Service scan at 17:02
+Scanning 4 services on www.1tamilmv.app (104.21.72.210)
+Completed Service scan at 17:02, 21.75s elapsed (4 services on 1 host)
+NSE: Script scanning 104.21.72.210.
+Initiating NSE at 17:02
+Completed NSE at 17:02, 7.03s elapsed
+Initiating NSE at 17:02
+Completed NSE at 17:02, 1.08s elapsed
+Initiating NSE at 17:02
+Completed NSE at 17:02, 0.00s elapsed
+Nmap scan report for www.1tamilmv.app (104.21.72.210)
+Host is up (0.030s latency).
+Other addresses for www.1tamilmv.app (not scanned): 172.67.154.253 2606:4700:3032::6815:48d2 2606:4700:3030::ac43:9afd
+Not shown: 996 filtered ports
+PORT     STATE SERVICE       VERSION
+80/tcp   open  http          cloudflare
+| fingerprint-strings: 
+|   FourOhFourRequest: 
+|     HTTP/1.1 400 Bad Request
+|     Date: Fri, 14 Feb 2025 11:32:34 GMT
+|     Content-Type: text/html
+|     Content-Length: 155
+|     Connection: close
+|     Server: cloudflare
+|     CF-RAY: 911cbd020c368492-BOM
+|     <html>
+|     <head><title>400 Bad Request</title></head>
+|     <body>
+|     <center><h1>400 Bad Request</h1></center>
+|     <hr><center>cloudflare</center>
+|     </body>
+|     </html>
+|   GetRequest: 
+|     HTTP/1.1 400 Bad Request
+|     Date: Fri, 14 Feb 2025 11:32:33 GMT
+|     Content-Type: text/html
+|     Content-Length: 155
+|     Connection: close
+|     Server: cloudflare
+|     CF-RAY: 911cbd00698941a4-BOM
+|     <html>
+|     <head><title>400 Bad Request</title></head>
+|     <body>
+|     <center><h1>400 Bad Request</h1></center>
+|     <hr><center>cloudflare</center>
+|     </body>
+|     </html>
+|   HTTPOptions: 
+|     HTTP/1.1 400 Bad Request
+|     Date: Fri, 14 Feb 2025 11:32:34 GMT
+|     Content-Type: text/html
+|     Content-Length: 155
+|     Connection: close
+|     Server: cloudflare
+|     CF-RAY: 911cbd00df7948d1-BOM
+|     <html>
+|     <head><title>400 Bad Request</title></head>
+|     <body>
+|     <center><h1>400 Bad Request</h1></center>
+|     <hr><center>cloudflare</center>
+|     </body>
+|     </html>
+|   RPCCheck: 
+|     HTTP/1.1 400 Bad Request
+|     Server: cloudflare
+|     Date: Fri, 14 Feb 2025 11:32:39 GMT
+|     Content-Type: text/html
+|     Content-Length: 155
+|     Connection: close
+|     CF-RAY: -
+|     <html>
+|     <head><title>400 Bad Request</title></head>
+|     <body>
+|     <center><h1>400 Bad Request</h1></center>
+|     <hr><center>cloudflare</center>
+|     </body>
+|     </html>
+|   RTSPRequest: 
+|     <html>
+|     <head><title>400 Bad Request</title></head>
+|     <body>
+|     <center><h1>400 Bad Request</h1></center>
+|     <hr><center>cloudflare</center>
+|     </body>
+|     </html>
+|   X11Probe: 
+|     HTTP/1.1 400 Bad Request
+|     Server: cloudflare
+|     Date: Fri, 14 Feb 2025 11:32:34 GMT
+|     Content-Type: text/html
+|     Content-Length: 155
+|     Connection: close
+|     CF-RAY: -
+|     <html>
+|     <head><title>400 Bad Request</title></head>
+|     <body>
+|     <center><h1>400 Bad Request</h1></center>
+|     <hr><center>cloudflare</center>
+|     </body>
+|_    </html>
+| http-methods: 
+|_  Supported Methods: GET HEAD POST OPTIONS
+|_http-server-header: cloudflare
+|_http-title: Did not follow redirect to https://www.1tamilmv.app/
+443/tcp  open  ssl/https     cloudflare
+| fingerprint-strings: 
+|   FourOhFourRequest: 
+|     HTTP/1.1 403 Forbidden
+|     Server: cloudflare
+|     Date: Fri, 14 Feb 2025 11:32:40 GMT
+|     Content-Type: text/html
+|     Content-Length: 151
+|     Connection: close
+|     CF-RAY: 911cbd289806f42d-BOM
+|     <html>
+|     <head><title>403 Forbidden</title></head>
+|     <body>
+|     <center><h1>403 Forbidden</h1></center>
+|     <hr><center>cloudflare</center>
+|     </body>
+|     </html>
+|   GetRequest: 
+|     HTTP/1.1 403 Forbidden
+|     Server: cloudflare
+|     Date: Fri, 14 Feb 2025 11:32:40 GMT
+|     Content-Type: text/html
+|     Content-Length: 151
+|     Connection: close
+|     CF-RAY: 911cbd268d7b85c6-BOM
+|     <html>
+|     <head><title>403 Forbidden</title></head>
+|     <body>
+|     <center><h1>403 Forbidden</h1></center>
+|     <hr><center>cloudflare</center>
+|     </body>
+|     </html>
+|   HTTPOptions: 
+|     HTTP/1.1 403 Forbidden
+|     Server: cloudflare
+|     Date: Fri, 14 Feb 2025 11:32:40 GMT
+|     Content-Type: text/html
+|     Content-Length: 151
+|     Connection: close
+|     CF-RAY: 911cbd27aba631d6-BOM
+|     <html>
+|     <head><title>403 Forbidden</title></head>
+|     <body>
+|     <center><h1>403 Forbidden</h1></center>
+|     <hr><center>cloudflare</center>
+|     </body>
+|     </html>
+|   RPCCheck: 
+|     HTTP/1.1 400 Bad Request
+|     Server: cloudflare
+|     Date: Fri, 14 Feb 2025 11:32:45 GMT
+|     Content-Type: text/html
+|     Content-Length: 155
+|     Connection: close
+|     CF-RAY: -
+|     <html>
+|     <head><title>400 Bad Request</title></head>
+|     <body>
+|     <center><h1>400 Bad Request</h1></center>
+|     <hr><center>cloudflare</center>
+|     </body>
+|     </html>
+|   RTSPRequest: 
+|     <html>
+|     <head><title>400 Bad Request</title></head>
+|     <body>
+|     <center><h1>400 Bad Request</h1></center>
+|     <hr><center>cloudflare</center>
+|     </body>
+|     </html>
+|   tor-versions: 
+|     HTTP/1.1 400 Bad Request
+|     Server: cloudflare
+|     Date: Fri, 14 Feb 2025 11:32:40 GMT
+|     Content-Type: text/html
+|     Content-Length: 155
+|     Connection: close
+|     CF-RAY: -
+|     <html>
+|     <head><title>400 Bad Request</title></head>
+|     <body>
+|     <center><h1>400 Bad Request</h1></center>
+|     <hr><center>cloudflare</center>
+|     </body>
+|_    </html>
+|_http-favicon: Unknown favicon MD5: 98D6F38478233DD803A7E1B4F870FAF9
+| http-methods: 
+|_  Supported Methods: GET HEAD POST
+|_http-server-header: cloudflare
+|_http-title: 1TamilMV.app: Download &amp; Watch Latest Tamil Telugu Hindi M...
+| ssl-cert: Subject: commonName=1tamilmv.app
+| Subject Alternative Name: DNS:1tamilmv.app, DNS:*.1tamilmv.app
+| Issuer: commonName=WE1/organizationName=Google Trust Services/countryName=US
+| Public Key type: ec
+| Public Key bits: 256
+| Signature Algorithm: ecdsa-with-SHA256
+| Not valid before: 2025-01-07T09:27:35
+| Not valid after:  2025-04-07T10:23:39
+| MD5:   8d42 2ea8 4849 5eb0 4d4b c58f 2917 f286
+|_SHA-1: 166a f28f 42e6 d69a 55f4 5d68 e72f c60a 6a59 5efd
+8080/tcp open  http-proxy    cloudflare
+| fingerprint-strings: 
+|   FourOhFourRequest: 
+|     HTTP/1.1 400 Bad Request
+|     Date: Fri, 14 Feb 2025 11:32:34 GMT
+|     Content-Type: text/html
+|     Content-Length: 155
+|     Connection: close
+|     Server: cloudflare
+|     CF-RAY: 911cbd019921480e-BOM
+|     <html>
+|     <head><title>400 Bad Request</title></head>
+|     <body>
+|     <center><h1>400 Bad Request</h1></center>
+|     <hr><center>cloudflare</center>
+|     </body>
+|     </html>
+|   GetRequest: 
+|     HTTP/1.1 400 Bad Request
+|     Date: Fri, 14 Feb 2025 11:32:33 GMT
+|     Content-Type: text/html
+|     Content-Length: 155
+|     Connection: close
+|     Server: cloudflare
+|     CF-RAY: 911cbd006b733e57-BOM
+|     <html>
+|     <head><title>400 Bad Request</title></head>
+|     <body>
+|     <center><h1>400 Bad Request</h1></center>
+|     <hr><center>cloudflare</center>
+|     </body>
+|     </html>
+|   HTTPOptions: 
+|     HTTP/1.1 400 Bad Request
+|     Date: Fri, 14 Feb 2025 11:32:34 GMT
+|     Content-Type: text/html
+|     Content-Length: 155
+|     Connection: close
+|     Server: cloudflare
+|     CF-RAY: 911cbd00dc85493e-BOM
+|     <html>
+|     <head><title>400 Bad Request</title></head>
+|     <body>
+|     <center><h1>400 Bad Request</h1></center>
+|     <hr><center>cloudflare</center>
+|     </body>
+|     </html>
+|   RTSPRequest: 
+|     <html>
+|     <head><title>400 Bad Request</title></head>
+|     <body>
+|     <center><h1>400 Bad Request</h1></center>
+|     <hr><center>cloudflare</center>
+|     </body>
+|     </html>
+|   Socks4, Socks5: 
+|     HTTP/1.1 400 Bad Request
+|     Server: cloudflare
+|     Date: Fri, 14 Feb 2025 11:32:34 GMT
+|     Content-Type: text/html
+|     Content-Length: 155
+|     Connection: close
+|     CF-RAY: -
+|     <html>
+|     <head><title>400 Bad Request</title></head>
+|     <body>
+|     <center><h1>400 Bad Request</h1></center>
+|     <hr><center>cloudflare</center>
+|     </body>
+|_    </html>
+| http-methods: 
+|_  Supported Methods: GET HEAD POST OPTIONS
+|_http-server-header: cloudflare
+|_http-title: Did not follow redirect to https://www.1tamilmv.app/
+8443/tcp open  ssl/https-alt cloudflare
+| fingerprint-strings: 
+|   DNSVersionBindReqTCP, RPCCheck: 
+|     HTTP/1.1 400 Bad Request
+|     Server: cloudflare
+|     Date: Fri, 14 Feb 2025 11:32:45 GMT
+|     Content-Type: text/html
+|     Content-Length: 155
+|     Connection: close
+|     CF-RAY: -
+|     <html>
+|     <head><title>400 Bad Request</title></head>
+|     <body>
+|     <center><h1>400 Bad Request</h1></center>
+|     <hr><center>cloudflare</center>
+|     </body>
+|     </html>
+|   FourOhFourRequest: 
+|     HTTP/1.1 403 Forbidden
+|     Server: cloudflare
+|     Date: Fri, 14 Feb 2025 11:32:40 GMT
+|     Content-Type: text/html
+|     Content-Length: 151
+|     Connection: close
+|     CF-RAY: 911cbd28980bf42d-BOM
+|     <html>
+|     <head><title>403 Forbidden</title></head>
+|     <body>
+|     <center><h1>403 Forbidden</h1></center>
+|     <hr><center>cloudflare</center>
+|     </body>
+|     </html>
+|   GetRequest: 
+|     HTTP/1.1 403 Forbidden
+|     Server: cloudflare
+|     Date: Fri, 14 Feb 2025 11:32:40 GMT
+|     Content-Type: text/html
+|     Content-Length: 151
+|     Connection: close
+|     CF-RAY: 911cbd268e1147ea-BOM
+|     <html>
+|     <head><title>403 Forbidden</title></head>
+|     <body>
+|     <center><h1>403 Forbidden</h1></center>
+|     <hr><center>cloudflare</center>
+|     </body>
+|     </html>
+|   HTTPOptions: 
+|     HTTP/1.1 403 Forbidden
+|     Server: cloudflare
+|     Date: Fri, 14 Feb 2025 11:32:40 GMT
+|     Content-Type: text/html
+|     Content-Length: 151
+|     Connection: close
+|     CF-RAY: 911cbd27989e3f97-BOM
+|     <html>
+|     <head><title>403 Forbidden</title></head>
+|     <body>
+|     <center><h1>403 Forbidden</h1></center>
+|     <hr><center>cloudflare</center>
+|     </body>
+|     </html>
+|   RTSPRequest: 
+|     <html>
+|     <head><title>400 Bad Request</title></head>
+|     <body>
+|     <center><h1>400 Bad Request</h1></center>
+|     <hr><center>cloudflare</center>
+|     </body>
+|_    </html>
+|_http-server-header: cloudflare
+|_http-title: Site doesn't have a title (text/plain; charset=UTF-8).
+| ssl-cert: Subject: commonName=1tamilmv.app
+| Subject Alternative Name: DNS:1tamilmv.app, DNS:*.1tamilmv.app
+| Issuer: commonName=WE1/organizationName=Google Trust Services/countryName=US
+| Public Key type: ec
+| Public Key bits: 256
+| Signature Algorithm: ecdsa-with-SHA256
+| Not valid before: 2025-01-07T09:27:35
+| Not valid after:  2025-04-07T10:23:39
+| MD5:   8d42 2ea8 4849 5eb0 4d4b c58f 2917 f286
+|_SHA-1: 166a f28f 42e6 d69a 55f4 5d68 e72f c60a 6a59 5efd
+4 services unrecognized despite returning data. If you know the service/version, please submit the following fingerprints at https://nmap.org/cgi-bin/submit.cgi?new-service :
+==============NEXT SERVICE FINGERPRINT (SUBMIT INDIVIDUALLY)==============
+SF-Port80-TCP:V=7.80%I=7%D=2/14%Time=67AF29D1%P=x86_64-pc-linux-gnu%r(GetR
+SF:equest,14F,"HTTP/1\.1\x20400\x20Bad\x20Request\r\nDate:\x20Fri,\x2014\x
+SF:20Feb\x202025\x2011:32:33\x20GMT\r\nContent-Type:\x20text/html\r\nConte
+SF:nt-Length:\x20155\r\nConnection:\x20close\r\nServer:\x20cloudflare\r\nC
+SF:F-RAY:\x20911cbd00698941a4-BOM\r\n\r\n<html>\r\n<head><title>400\x20Bad
+SF:\x20Request</title></head>\r\n<body>\r\n<center><h1>400\x20Bad\x20Reque
+SF:st</h1></center>\r\n<hr><center>cloudflare</center>\r\n</body>\r\n</htm
+SF:l>\r\n")%r(HTTPOptions,14F,"HTTP/1\.1\x20400\x20Bad\x20Request\r\nDate:
+SF:\x20Fri,\x2014\x20Feb\x202025\x2011:32:34\x20GMT\r\nContent-Type:\x20te
+SF:xt/html\r\nContent-Length:\x20155\r\nConnection:\x20close\r\nServer:\x2
+SF:0cloudflare\r\nCF-RAY:\x20911cbd00df7948d1-BOM\r\n\r\n<html>\r\n<head><
+SF:title>400\x20Bad\x20Request</title></head>\r\n<body>\r\n<center><h1>400
+SF:\x20Bad\x20Request</h1></center>\r\n<hr><center>cloudflare</center>\r\n
+SF:</body>\r\n</html>\r\n")%r(RTSPRequest,9B,"<html>\r\n<head><title>400\x
+SF:20Bad\x20Request</title></head>\r\n<body>\r\n<center><h1>400\x20Bad\x20
+SF:Request</h1></center>\r\n<hr><center>cloudflare</center>\r\n</body>\r\n
+SF:</html>\r\n")%r(X11Probe,13C,"HTTP/1\.1\x20400\x20Bad\x20Request\r\nSer
+SF:ver:\x20cloudflare\r\nDate:\x20Fri,\x2014\x20Feb\x202025\x2011:32:34\x2
+SF:0GMT\r\nContent-Type:\x20text/html\r\nContent-Length:\x20155\r\nConnect
+SF:ion:\x20close\r\nCF-RAY:\x20-\r\n\r\n<html>\r\n<head><title>400\x20Bad\
+SF:x20Request</title></head>\r\n<body>\r\n<center><h1>400\x20Bad\x20Reques
+SF:t</h1></center>\r\n<hr><center>cloudflare</center>\r\n</body>\r\n</html
+SF:>\r\n")%r(FourOhFourRequest,14F,"HTTP/1\.1\x20400\x20Bad\x20Request\r\n
+SF:Date:\x20Fri,\x2014\x20Feb\x202025\x2011:32:34\x20GMT\r\nContent-Type:\
+SF:x20text/html\r\nContent-Length:\x20155\r\nConnection:\x20close\r\nServe
+SF:r:\x20cloudflare\r\nCF-RAY:\x20911cbd020c368492-BOM\r\n\r\n<html>\r\n<h
+SF:ead><title>400\x20Bad\x20Request</title></head>\r\n<body>\r\n<center><h
+SF:1>400\x20Bad\x20Request</h1></center>\r\n<hr><center>cloudflare</center
+SF:>\r\n</body>\r\n</html>\r\n")%r(RPCCheck,13C,"HTTP/1\.1\x20400\x20Bad\x
+SF:20Request\r\nServer:\x20cloudflare\r\nDate:\x20Fri,\x2014\x20Feb\x20202
+SF:5\x2011:32:39\x20GMT\r\nContent-Type:\x20text/html\r\nContent-Length:\x
+SF:20155\r\nConnection:\x20close\r\nCF-RAY:\x20-\r\n\r\n<html>\r\n<head><t
+SF:itle>400\x20Bad\x20Request</title></head>\r\n<body>\r\n<center><h1>400\
+SF:x20Bad\x20Request</h1></center>\r\n<hr><center>cloudflare</center>\r\n<
+SF:/body>\r\n</html>\r\n");
+==============NEXT SERVICE FINGERPRINT (SUBMIT INDIVIDUALLY)==============
+SF-Port443-TCP:V=7.80%T=SSL%I=7%D=2/14%Time=67AF29D8%P=x86_64-pc-linux-gnu
+SF:%r(GetRequest,149,"HTTP/1\.1\x20403\x20Forbidden\r\nServer:\x20cloudfla
+SF:re\r\nDate:\x20Fri,\x2014\x20Feb\x202025\x2011:32:40\x20GMT\r\nContent-
+SF:Type:\x20text/html\r\nContent-Length:\x20151\r\nConnection:\x20close\r\
+SF:nCF-RAY:\x20911cbd268d7b85c6-BOM\r\n\r\n<html>\r\n<head><title>403\x20F
+SF:orbidden</title></head>\r\n<body>\r\n<center><h1>403\x20Forbidden</h1><
+SF:/center>\r\n<hr><center>cloudflare</center>\r\n</body>\r\n</html>\r\n")
+SF:%r(HTTPOptions,149,"HTTP/1\.1\x20403\x20Forbidden\r\nServer:\x20cloudfl
+SF:are\r\nDate:\x20Fri,\x2014\x20Feb\x202025\x2011:32:40\x20GMT\r\nContent
+SF:-Type:\x20text/html\r\nContent-Length:\x20151\r\nConnection:\x20close\r
+SF:\nCF-RAY:\x20911cbd27aba631d6-BOM\r\n\r\n<html>\r\n<head><title>403\x20
+SF:Forbidden</title></head>\r\n<body>\r\n<center><h1>403\x20Forbidden</h1>
+SF:</center>\r\n<hr><center>cloudflare</center>\r\n</body>\r\n</html>\r\n"
+SF:)%r(FourOhFourRequest,149,"HTTP/1\.1\x20403\x20Forbidden\r\nServer:\x20
+SF:cloudflare\r\nDate:\x20Fri,\x2014\x20Feb\x202025\x2011:32:40\x20GMT\r\n
+SF:Content-Type:\x20text/html\r\nContent-Length:\x20151\r\nConnection:\x20
+SF:close\r\nCF-RAY:\x20911cbd289806f42d-BOM\r\n\r\n<html>\r\n<head><title>
+SF:403\x20Forbidden</title></head>\r\n<body>\r\n<center><h1>403\x20Forbidd
+SF:en</h1></center>\r\n<hr><center>cloudflare</center>\r\n</body>\r\n</htm
+SF:l>\r\n")%r(tor-versions,13C,"HTTP/1\.1\x20400\x20Bad\x20Request\r\nServ
+SF:er:\x20cloudflare\r\nDate:\x20Fri,\x2014\x20Feb\x202025\x2011:32:40\x20
+SF:GMT\r\nContent-Type:\x20text/html\r\nContent-Length:\x20155\r\nConnecti
+SF:on:\x20close\r\nCF-RAY:\x20-\r\n\r\n<html>\r\n<head><title>400\x20Bad\x
+SF:20Request</title></head>\r\n<body>\r\n<center><h1>400\x20Bad\x20Request
+SF:</h1></center>\r\n<hr><center>cloudflare</center>\r\n</body>\r\n</html>
+SF:\r\n")%r(RTSPRequest,9B,"<html>\r\n<head><title>400\x20Bad\x20Request</
+SF:title></head>\r\n<body>\r\n<center><h1>400\x20Bad\x20Request</h1></cent
+SF:er>\r\n<hr><center>cloudflare</center>\r\n</body>\r\n</html>\r\n")%r(RP
+SF:CCheck,13C,"HTTP/1\.1\x20400\x20Bad\x20Request\r\nServer:\x20cloudflare
+SF:\r\nDate:\x20Fri,\x2014\x20Feb\x202025\x2011:32:45\x20GMT\r\nContent-Ty
+SF:pe:\x20text/html\r\nContent-Length:\x20155\r\nConnection:\x20close\r\nC
+SF:F-RAY:\x20-\r\n\r\n<html>\r\n<head><title>400\x20Bad\x20Request</title>
+SF:</head>\r\n<body>\r\n<center><h1>400\x20Bad\x20Request</h1></center>\r\
+SF:n<hr><center>cloudflare</center>\r\n</body>\r\n</html>\r\n");
+==============NEXT SERVICE FINGERPRINT (SUBMIT INDIVIDUALLY)==============
+SF-Port8080-TCP:V=7.80%I=7%D=2/14%Time=67AF29D1%P=x86_64-pc-linux-gnu%r(Ge
+SF:tRequest,14F,"HTTP/1\.1\x20400\x20Bad\x20Request\r\nDate:\x20Fri,\x2014
+SF:\x20Feb\x202025\x2011:32:33\x20GMT\r\nContent-Type:\x20text/html\r\nCon
+SF:tent-Length:\x20155\r\nConnection:\x20close\r\nServer:\x20cloudflare\r\
+SF:nCF-RAY:\x20911cbd006b733e57-BOM\r\n\r\n<html>\r\n<head><title>400\x20B
+SF:ad\x20Request</title></head>\r\n<body>\r\n<center><h1>400\x20Bad\x20Req
+SF:uest</h1></center>\r\n<hr><center>cloudflare</center>\r\n</body>\r\n</h
+SF:tml>\r\n")%r(HTTPOptions,14F,"HTTP/1\.1\x20400\x20Bad\x20Request\r\nDat
+SF:e:\x20Fri,\x2014\x20Feb\x202025\x2011:32:34\x20GMT\r\nContent-Type:\x20
+SF:text/html\r\nContent-Length:\x20155\r\nConnection:\x20close\r\nServer:\
+SF:x20cloudflare\r\nCF-RAY:\x20911cbd00dc85493e-BOM\r\n\r\n<html>\r\n<head
+SF:><title>400\x20Bad\x20Request</title></head>\r\n<body>\r\n<center><h1>4
+SF:00\x20Bad\x20Request</h1></center>\r\n<hr><center>cloudflare</center>\r
+SF:\n</body>\r\n</html>\r\n")%r(RTSPRequest,9B,"<html>\r\n<head><title>400
+SF:\x20Bad\x20Request</title></head>\r\n<body>\r\n<center><h1>400\x20Bad\x
+SF:20Request</h1></center>\r\n<hr><center>cloudflare</center>\r\n</body>\r
+SF:\n</html>\r\n")%r(FourOhFourRequest,14F,"HTTP/1\.1\x20400\x20Bad\x20Req
+SF:uest\r\nDate:\x20Fri,\x2014\x20Feb\x202025\x2011:32:34\x20GMT\r\nConten
+SF:t-Type:\x20text/html\r\nContent-Length:\x20155\r\nConnection:\x20close\
+SF:r\nServer:\x20cloudflare\r\nCF-RAY:\x20911cbd019921480e-BOM\r\n\r\n<htm
+SF:l>\r\n<head><title>400\x20Bad\x20Request</title></head>\r\n<body>\r\n<c
+SF:enter><h1>400\x20Bad\x20Request</h1></center>\r\n<hr><center>cloudflare
+SF:</center>\r\n</body>\r\n</html>\r\n")%r(Socks5,13C,"HTTP/1\.1\x20400\x2
+SF:0Bad\x20Request\r\nServer:\x20cloudflare\r\nDate:\x20Fri,\x2014\x20Feb\
+SF:x202025\x2011:32:34\x20GMT\r\nContent-Type:\x20text/html\r\nContent-Len
+SF:gth:\x20155\r\nConnection:\x20close\r\nCF-RAY:\x20-\r\n\r\n<html>\r\n<h
+SF:ead><title>400\x20Bad\x20Request</title></head>\r\n<body>\r\n<center><h
+SF:1>400\x20Bad\x20Request</h1></center>\r\n<hr><center>cloudflare</center
+SF:>\r\n</body>\r\n</html>\r\n")%r(Socks4,13C,"HTTP/1\.1\x20400\x20Bad\x20
+SF:Request\r\nServer:\x20cloudflare\r\nDate:\x20Fri,\x2014\x20Feb\x202025\
+SF:x2011:32:34\x20GMT\r\nContent-Type:\x20text/html\r\nContent-Length:\x20
+SF:155\r\nConnection:\x20close\r\nCF-RAY:\x20-\r\n\r\n<html>\r\n<head><tit
+SF:le>400\x20Bad\x20Request</title></head>\r\n<body>\r\n<center><h1>400\x2
+SF:0Bad\x20Request</h1></center>\r\n<hr><center>cloudflare</center>\r\n</b
+SF:ody>\r\n</html>\r\n");
+==============NEXT SERVICE FINGERPRINT (SUBMIT INDIVIDUALLY)==============
+SF-Port8443-TCP:V=7.80%T=SSL%I=7%D=2/14%Time=67AF29D8%P=x86_64-pc-linux-gn
+SF:u%r(GetRequest,149,"HTTP/1\.1\x20403\x20Forbidden\r\nServer:\x20cloudfl
+SF:are\r\nDate:\x20Fri,\x2014\x20Feb\x202025\x2011:32:40\x20GMT\r\nContent
+SF:-Type:\x20text/html\r\nContent-Length:\x20151\r\nConnection:\x20close\r
+SF:\nCF-RAY:\x20911cbd268e1147ea-BOM\r\n\r\n<html>\r\n<head><title>403\x20
+SF:Forbidden</title></head>\r\n<body>\r\n<center><h1>403\x20Forbidden</h1>
+SF:</center>\r\n<hr><center>cloudflare</center>\r\n</body>\r\n</html>\r\n"
+SF:)%r(HTTPOptions,149,"HTTP/1\.1\x20403\x20Forbidden\r\nServer:\x20cloudf
+SF:lare\r\nDate:\x20Fri,\x2014\x20Feb\x202025\x2011:32:40\x20GMT\r\nConten
+SF:t-Type:\x20text/html\r\nContent-Length:\x20151\r\nConnection:\x20close\
+SF:r\nCF-RAY:\x20911cbd27989e3f97-BOM\r\n\r\n<html>\r\n<head><title>403\x2
+SF:0Forbidden</title></head>\r\n<body>\r\n<center><h1>403\x20Forbidden</h1
+SF:></center>\r\n<hr><center>cloudflare</center>\r\n</body>\r\n</html>\r\n
+SF:")%r(FourOhFourRequest,149,"HTTP/1\.1\x20403\x20Forbidden\r\nServer:\x2
+SF:0cloudflare\r\nDate:\x20Fri,\x2014\x20Feb\x202025\x2011:32:40\x20GMT\r\
+SF:nContent-Type:\x20text/html\r\nContent-Length:\x20151\r\nConnection:\x2
+SF:0close\r\nCF-RAY:\x20911cbd28980bf42d-BOM\r\n\r\n<html>\r\n<head><title
+SF:>403\x20Forbidden</title></head>\r\n<body>\r\n<center><h1>403\x20Forbid
+SF:den</h1></center>\r\n<hr><center>cloudflare</center>\r\n</body>\r\n</ht
+SF:ml>\r\n")%r(RTSPRequest,9B,"<html>\r\n<head><title>400\x20Bad\x20Reques
+SF:t</title></head>\r\n<body>\r\n<center><h1>400\x20Bad\x20Request</h1></c
+SF:enter>\r\n<hr><center>cloudflare</center>\r\n</body>\r\n</html>\r\n")%r
+SF:(RPCCheck,13C,"HTTP/1\.1\x20400\x20Bad\x20Request\r\nServer:\x20cloudfl
+SF:are\r\nDate:\x20Fri,\x2014\x20Feb\x202025\x2011:32:45\x20GMT\r\nContent
+SF:-Type:\x20text/html\r\nContent-Length:\x20155\r\nConnection:\x20close\r
+SF:\nCF-RAY:\x20-\r\n\r\n<html>\r\n<head><title>400\x20Bad\x20Request</tit
+SF:le></head>\r\n<body>\r\n<center><h1>400\x20Bad\x20Request</h1></center>
+SF:\r\n<hr><center>cloudflare</center>\r\n</body>\r\n</html>\r\n")%r(DNSVe
+SF:rsionBindReqTCP,13C,"HTTP/1\.1\x20400\x20Bad\x20Request\r\nServer:\x20c
+SF:loudflare\r\nDate:\x20Fri,\x2014\x20Feb\x202025\x2011:32:45\x20GMT\r\nC
+SF:ontent-Type:\x20text/html\r\nContent-Length:\x20155\r\nConnection:\x20c
+SF:lose\r\nCF-RAY:\x20-\r\n\r\n<html>\r\n<head><title>400\x20Bad\x20Reques
+SF:t</title></head>\r\n<body>\r\n<center><h1>400\x20Bad\x20Request</h1></c
+SF:enter>\r\n<hr><center>cloudflare</center>\r\n</body>\r\n</html>\r\n");
+
+NSE: Script Post-scanning.
+Initiating NSE at 17:02
+Completed NSE at 17:02, 0.00s elapsed
+Initiating NSE at 17:02
+Completed NSE at 17:02, 0.00s elapsed
+Initiating NSE at 17:02
+Completed NSE at 17:02, 0.00s elapsed
+Read data files from: /usr/bin/../share/nmap
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+Nmap done: 1 IP address (1 host up) scanned in 45.30 seconds
