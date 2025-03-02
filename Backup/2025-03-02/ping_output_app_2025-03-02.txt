@@ -1,0 +1,9 @@
+PING www.1tamilmv.app (104.21.72.210) 56(84) bytes of data.
+64 bytes from 104.21.72.210 (104.21.72.210): icmp_seq=1 ttl=58 time=37.5 ms
+64 bytes from 104.21.72.210 (104.21.72.210): icmp_seq=2 ttl=58 time=37.2 ms
+64 bytes from 104.21.72.210 (104.21.72.210): icmp_seq=3 ttl=58 time=37.7 ms
+64 bytes from 104.21.72.210 (104.21.72.210): icmp_seq=4 ttl=58 time=37.1 ms
+
+--- www.1tamilmv.app ping statistics ---
+4 packets transmitted, 4 received, 0% packet loss, time 3004ms
+rtt min/avg/max/mdev = 37.113/37.385/37.734/0.250 ms

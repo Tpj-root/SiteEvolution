@@ -1,0 +1,13 @@
+Server:		8.8.8.8
+Address:	8.8.8.8#53
+
+Non-authoritative answer:
+Name:	www.1tamilmv.app
+Address: 172.67.154.253
+Name:	www.1tamilmv.app
+Address: 104.21.72.210
+Name:	www.1tamilmv.app
+Address: 2606:4700:3030::ac43:9afd
+Name:	www.1tamilmv.app
+Address: 2606:4700:3032::6815:48d2
+

@@ -1,0 +1,9 @@
+PING www.1tamilmv.pm (104.21.22.127) 56(84) bytes of data.
+64 bytes from 104.21.22.127 (104.21.22.127): icmp_seq=1 ttl=58 time=38.0 ms
+64 bytes from 104.21.22.127 (104.21.22.127): icmp_seq=2 ttl=58 time=37.3 ms
+64 bytes from 104.21.22.127 (104.21.22.127): icmp_seq=3 ttl=58 time=37.0 ms
+64 bytes from 104.21.22.127 (104.21.22.127): icmp_seq=4 ttl=58 time=37.6 ms
+
+--- www.1tamilmv.pm ping statistics ---
+4 packets transmitted, 4 received, 0% packet loss, time 3004ms
+rtt min/avg/max/mdev = 36.997/37.486/38.018/0.375 ms
