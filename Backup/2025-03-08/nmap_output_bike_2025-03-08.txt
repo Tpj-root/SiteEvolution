@@ -1,0 +1,87 @@
+Starting Nmap 7.93 ( https://nmap.org ) at 2025-03-08 12:25 IST
+NSE: Loaded 155 scripts for scanning.
+NSE: Script Pre-scanning.
+Initiating NSE at 12:25
+Completed NSE at 12:25, 0.00s elapsed
+Initiating NSE at 12:25
+Completed NSE at 12:25, 0.00s elapsed
+Initiating NSE at 12:25
+Completed NSE at 12:25, 0.00s elapsed
+Initiating Ping Scan at 12:25
+Scanning www.1tamilmv.bike (104.21.80.1) [2 ports]
+Completed Ping Scan at 12:25, 0.01s elapsed (1 total hosts)
+Initiating Parallel DNS resolution of 1 host. at 12:25
+Completed Parallel DNS resolution of 1 host. at 12:25, 11.01s elapsed
+Initiating Connect Scan at 12:25
+Scanning www.1tamilmv.bike (104.21.80.1) [1000 ports]
+Discovered open port 443/tcp on 104.21.80.1
+Discovered open port 80/tcp on 104.21.80.1
+Discovered open port 8080/tcp on 104.21.80.1
+Discovered open port 8443/tcp on 104.21.80.1
+Completed Connect Scan at 12:25, 4.72s elapsed (1000 total ports)
+Initiating Service scan at 12:25
+Scanning 4 services on www.1tamilmv.bike (104.21.80.1)
+Completed Service scan at 12:25, 12.11s elapsed (4 services on 1 host)
+NSE: Script scanning 104.21.80.1.
+Initiating NSE at 12:25
+Completed NSE at 12:25, 5.05s elapsed
+Initiating NSE at 12:25
+Completed NSE at 12:25, 0.29s elapsed
+Initiating NSE at 12:25
+Completed NSE at 12:25, 0.00s elapsed
+Nmap scan report for www.1tamilmv.bike (104.21.80.1)
+Host is up (0.015s latency).
+Other addresses for www.1tamilmv.bike (not scanned): 104.21.112.1 104.21.48.1 104.21.16.1 104.21.64.1 104.21.96.1 104.21.32.1 2606:4700:3030::6815:6001 2606:4700:3030::6815:1001 2606:4700:3030::6815:3001 2606:4700:3030::6815:7001 2606:4700:3030::6815:5001 2606:4700:3030::6815:2001 2606:4700:3030::6815:4001
+Not shown: 996 filtered tcp ports (no-response)
+PORT     STATE SERVICE  VERSION
+80/tcp   open  http     Cloudflare http proxy
+| http-methods: 
+|_  Supported Methods: GET HEAD POST OPTIONS
+|_http-server-header: cloudflare
+|_http-title: Did not follow redirect to https://www.1tamilmv.si/
+443/tcp  open  ssl/http Cloudflare http proxy
+| ssl-cert: Subject: commonName=1tamilmv.bike
+| Subject Alternative Name: DNS:1tamilmv.bike, DNS:*.1tamilmv.bike
+| Issuer: commonName=WE1/organizationName=Google Trust Services/countryName=US
+| Public Key type: ec
+| Public Key bits: 256
+| Signature Algorithm: ecdsa-with-SHA256
+| Not valid before: 2025-02-01T11:24:11
+| Not valid after:  2025-05-02T12:20:17
+| MD5:   c2220eb3d221887b91e21598f2ab703a
+|_SHA-1: fc9344ac56d97be693fb7e0f9acc9875dfd1f90f
+|_http-server-header: cloudflare
+| http-methods: 
+|_  Supported Methods: GET HEAD POST OPTIONS
+|_http-title: Did not follow redirect to https://www.1tamilmv.si/
+8080/tcp open  http     Cloudflare http proxy
+|_http-server-header: cloudflare
+| http-methods: 
+|_  Supported Methods: GET HEAD POST OPTIONS
+|_http-title: Did not follow redirect to https://www.1tamilmv.si/
+8443/tcp open  ssl/http Cloudflare http proxy
+|_http-server-header: cloudflare
+|_http-title: Did not follow redirect to https://www.1tamilmv.si/
+| ssl-cert: Subject: commonName=1tamilmv.bike
+| Subject Alternative Name: DNS:1tamilmv.bike, DNS:*.1tamilmv.bike
+| Issuer: commonName=WE1/organizationName=Google Trust Services/countryName=US
+| Public Key type: ec
+| Public Key bits: 256
+| Signature Algorithm: ecdsa-with-SHA256
+| Not valid before: 2025-02-01T11:24:11
+| Not valid after:  2025-05-02T12:20:17
+| MD5:   c2220eb3d221887b91e21598f2ab703a
+|_SHA-1: fc9344ac56d97be693fb7e0f9acc9875dfd1f90f
+| http-methods: 
+|_  Supported Methods: GET HEAD POST OPTIONS
+
+NSE: Script Post-scanning.
+Initiating NSE at 12:25
+Completed NSE at 12:25, 0.00s elapsed
+Initiating NSE at 12:25
+Completed NSE at 12:25, 0.00s elapsed
+Initiating NSE at 12:25
+Completed NSE at 12:25, 0.00s elapsed
+Read data files from: /usr/bin/../share/nmap
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+Nmap done: 1 IP address (1 host up) scanned in 33.66 seconds
