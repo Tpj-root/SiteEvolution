@@ -1,0 +1,9 @@
+PING www.1tamilmv.tel (172.67.199.112) 56(84) bytes of data.
+64 bytes from 172.67.199.112 (172.67.199.112): icmp_seq=1 ttl=57 time=28.8 ms
+64 bytes from 172.67.199.112 (172.67.199.112): icmp_seq=2 ttl=57 time=29.1 ms
+64 bytes from 172.67.199.112 (172.67.199.112): icmp_seq=3 ttl=57 time=30.1 ms
+64 bytes from 172.67.199.112 (172.67.199.112): icmp_seq=4 ttl=57 time=30.3 ms
+
+--- www.1tamilmv.tel ping statistics ---
+4 packets transmitted, 4 received, 0% packet loss, time 3004ms
+rtt min/avg/max/mdev = 28.793/29.560/30.291/0.633 ms

@@ -1,0 +1,86 @@
+Starting Nmap 7.93 ( https://nmap.org ) at 2025-04-01 16:38 IST
+NSE: Loaded 155 scripts for scanning.
+NSE: Script Pre-scanning.
+Initiating NSE at 16:38
+Completed NSE at 16:38, 0.00s elapsed
+Initiating NSE at 16:38
+Completed NSE at 16:38, 0.00s elapsed
+Initiating NSE at 16:38
+Completed NSE at 16:38, 0.00s elapsed
+Initiating Ping Scan at 16:38
+Scanning www.1tamilmv.app (104.21.72.210) [2 ports]
+Completed Ping Scan at 16:38, 0.03s elapsed (1 total hosts)
+Initiating Parallel DNS resolution of 1 host. at 16:38
+Completed Parallel DNS resolution of 1 host. at 16:38, 11.04s elapsed
+Initiating Connect Scan at 16:38
+Scanning www.1tamilmv.app (104.21.72.210) [1000 ports]
+Discovered open port 80/tcp on 104.21.72.210
+Discovered open port 443/tcp on 104.21.72.210
+Discovered open port 8080/tcp on 104.21.72.210
+Discovered open port 8443/tcp on 104.21.72.210
+Completed Connect Scan at 16:38, 4.67s elapsed (1000 total ports)
+Initiating Service scan at 16:38
+Scanning 4 services on www.1tamilmv.app (104.21.72.210)
+Completed Service scan at 16:38, 12.18s elapsed (4 services on 1 host)
+NSE: Script scanning 104.21.72.210.
+Initiating NSE at 16:38
+Completed NSE at 16:38, 6.21s elapsed
+Initiating NSE at 16:38
+Completed NSE at 16:39, 1.16s elapsed
+Initiating NSE at 16:39
+Completed NSE at 16:39, 0.00s elapsed
+Nmap scan report for www.1tamilmv.app (104.21.72.210)
+Host is up (0.030s latency).
+Other addresses for www.1tamilmv.app (not scanned): 172.67.154.253 2606:4700:3032::6815:48d2 2606:4700:3030::ac43:9afd
+Not shown: 996 filtered tcp ports (no-response)
+PORT     STATE SERVICE  VERSION
+80/tcp   open  http     Cloudflare http proxy
+|_http-server-header: cloudflare
+|_http-title: Did not follow redirect to https://www.1tamilmv.app/
+| http-methods: 
+|_  Supported Methods: GET HEAD POST OPTIONS
+443/tcp  open  ssl/http Cloudflare http proxy
+| ssl-cert: Subject: commonName=1tamilmv.app
+| Subject Alternative Name: DNS:1tamilmv.app, DNS:*.1tamilmv.app
+| Issuer: commonName=WE1/organizationName=Google Trust Services/countryName=US
+| Public Key type: ec
+| Public Key bits: 256
+| Signature Algorithm: ecdsa-with-SHA256
+| Not valid before: 2025-03-07T10:40:16
+| Not valid after:  2025-06-05T11:37:54
+| MD5:   bec306dfb0cd433b126368fa9c09cb1f
+|_SHA-1: 75ec6f43dd32e3673205838d33b59a1339763350
+| http-methods: 
+|_  Supported Methods: GET HEAD POST
+|_http-server-header: cloudflare
+|_http-title: 1TamilMV.app: Download &amp; Watch Latest Tamil Telugu Hindi M...
+|_http-favicon: Unknown favicon MD5: A6026D4133E174D2F77F47119316C4F3
+8080/tcp open  http     Cloudflare http proxy
+|_http-server-header: cloudflare
+| http-methods: 
+|_  Supported Methods: GET HEAD POST OPTIONS
+|_http-title: Did not follow redirect to https://www.1tamilmv.app/
+8443/tcp open  ssl/http Cloudflare http proxy
+|_http-server-header: cloudflare
+|_http-title: Site doesn't have a title (text/plain; charset=UTF-8).
+| ssl-cert: Subject: commonName=1tamilmv.app
+| Subject Alternative Name: DNS:1tamilmv.app, DNS:*.1tamilmv.app
+| Issuer: commonName=WE1/organizationName=Google Trust Services/countryName=US
+| Public Key type: ec
+| Public Key bits: 256
+| Signature Algorithm: ecdsa-with-SHA256
+| Not valid before: 2025-03-07T10:40:16
+| Not valid after:  2025-06-05T11:37:54
+| MD5:   bec306dfb0cd433b126368fa9c09cb1f
+|_SHA-1: 75ec6f43dd32e3673205838d33b59a1339763350
+
+NSE: Script Post-scanning.
+Initiating NSE at 16:39
+Completed NSE at 16:39, 0.00s elapsed
+Initiating NSE at 16:39
+Completed NSE at 16:39, 0.00s elapsed
+Initiating NSE at 16:39
+Completed NSE at 16:39, 0.00s elapsed
+Read data files from: /usr/bin/../share/nmap
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+Nmap done: 1 IP address (1 host up) scanned in 35.76 seconds
