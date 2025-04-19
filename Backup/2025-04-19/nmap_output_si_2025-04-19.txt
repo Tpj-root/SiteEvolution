@@ -1,0 +1,18 @@
+Starting Nmap 7.93 ( https://nmap.org ) at 2025-04-19 11:02 IST
+NSE: Loaded 155 scripts for scanning.
+NSE: Script Pre-scanning.
+Initiating NSE at 11:02
+Completed NSE at 11:02, 0.00s elapsed
+Initiating NSE at 11:02
+Completed NSE at 11:02, 0.00s elapsed
+Initiating NSE at 11:02
+Completed NSE at 11:02, 0.00s elapsed
+NSE: Script Post-scanning.
+Initiating NSE at 11:02
+Completed NSE at 11:02, 0.00s elapsed
+Initiating NSE at 11:02
+Completed NSE at 11:02, 0.00s elapsed
+Initiating NSE at 11:02
+Completed NSE at 11:02, 0.00s elapsed
+Read data files from: /usr/bin/../share/nmap
+Nmap done: 0 IP addresses (0 hosts up) scanned in 0.40 seconds
