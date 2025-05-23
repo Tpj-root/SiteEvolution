@@ -1,0 +1,9 @@
+PING www.1tamilmv.bike (104.21.64.1) 56(84) bytes of data.
+64 bytes from 104.21.64.1 (104.21.64.1): icmp_seq=1 ttl=55 time=11.2 ms
+64 bytes from 104.21.64.1 (104.21.64.1): icmp_seq=2 ttl=55 time=11.4 ms
+64 bytes from 104.21.64.1 (104.21.64.1): icmp_seq=3 ttl=55 time=11.1 ms
+64 bytes from 104.21.64.1 (104.21.64.1): icmp_seq=4 ttl=55 time=11.0 ms
+
+--- www.1tamilmv.bike ping statistics ---
+4 packets transmitted, 4 received, 0% packet loss, time 3004ms
+rtt min/avg/max/mdev = 10.995/11.167/11.375/0.135 ms

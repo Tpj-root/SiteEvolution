@@ -1,0 +1,87 @@
+Starting Nmap 7.93 ( https://nmap.org ) at 2025-05-23 16:37 IST
+NSE: Loaded 155 scripts for scanning.
+NSE: Script Pre-scanning.
+Initiating NSE at 16:37
+Completed NSE at 16:37, 0.00s elapsed
+Initiating NSE at 16:37
+Completed NSE at 16:37, 0.00s elapsed
+Initiating NSE at 16:37
+Completed NSE at 16:37, 0.00s elapsed
+Initiating Ping Scan at 16:37
+Scanning www.1tamilmv.ms (172.67.165.109) [2 ports]
+Completed Ping Scan at 16:37, 0.01s elapsed (1 total hosts)
+Initiating Parallel DNS resolution of 1 host. at 16:37
+Completed Parallel DNS resolution of 1 host. at 16:37, 11.01s elapsed
+Initiating Connect Scan at 16:37
+Scanning www.1tamilmv.ms (172.67.165.109) [1000 ports]
+Discovered open port 80/tcp on 172.67.165.109
+Discovered open port 8080/tcp on 172.67.165.109
+Discovered open port 443/tcp on 172.67.165.109
+Discovered open port 8443/tcp on 172.67.165.109
+Completed Connect Scan at 16:37, 9.98s elapsed (1000 total ports)
+Initiating Service scan at 16:37
+Scanning 4 services on www.1tamilmv.ms (172.67.165.109)
+Completed Service scan at 16:38, 12.08s elapsed (4 services on 1 host)
+NSE: Script scanning 172.67.165.109.
+Initiating NSE at 16:38
+Completed NSE at 16:38, 5.05s elapsed
+Initiating NSE at 16:38
+Completed NSE at 16:38, 0.23s elapsed
+Initiating NSE at 16:38
+Completed NSE at 16:38, 0.00s elapsed
+Nmap scan report for www.1tamilmv.ms (172.67.165.109)
+Host is up (0.016s latency).
+Other addresses for www.1tamilmv.ms (not scanned): 104.21.73.188 2606:4700:3031::6815:49bc 2606:4700:3036::ac43:a56d
+Not shown: 996 filtered tcp ports (no-response)
+PORT     STATE SERVICE  VERSION
+80/tcp   open  http     Cloudflare http proxy
+|_http-server-header: cloudflare
+|_http-title: Did not follow redirect to https://www.1tamilmv.ist/
+| http-methods: 
+|_  Supported Methods: GET HEAD POST OPTIONS
+443/tcp  open  ssl/http Cloudflare http proxy
+| ssl-cert: Subject: commonName=1tamilmv.ms
+| Subject Alternative Name: DNS:1tamilmv.ms, DNS:*.1tamilmv.ms
+| Issuer: commonName=WE1/organizationName=Google Trust Services/countryName=US
+| Public Key type: ec
+| Public Key bits: 256
+| Signature Algorithm: ecdsa-with-SHA256
+| Not valid before: 2025-04-29T16:44:51
+| Not valid after:  2025-07-28T17:42:01
+| MD5:   eabba392ca2d9ef2b21e940fe4e0f320
+|_SHA-1: 5a6ac0c46ae976a57e476743b7aa521ee0b8412f
+|_http-server-header: cloudflare
+|_http-title: Did not follow redirect to https://www.1tamilmv.ist/
+| http-methods: 
+|_  Supported Methods: GET HEAD POST OPTIONS
+8080/tcp open  http     Cloudflare http proxy
+|_http-server-header: cloudflare
+|_http-title: Did not follow redirect to https://www.1tamilmv.ist/
+| http-methods: 
+|_  Supported Methods: GET HEAD POST OPTIONS
+8443/tcp open  ssl/http Cloudflare http proxy
+|_http-server-header: cloudflare
+|_http-title: Did not follow redirect to https://www.1tamilmv.ist/
+| ssl-cert: Subject: commonName=1tamilmv.ms
+| Subject Alternative Name: DNS:1tamilmv.ms, DNS:*.1tamilmv.ms
+| Issuer: commonName=WE1/organizationName=Google Trust Services/countryName=US
+| Public Key type: ec
+| Public Key bits: 256
+| Signature Algorithm: ecdsa-with-SHA256
+| Not valid before: 2025-04-29T16:44:51
+| Not valid after:  2025-07-28T17:42:01
+| MD5:   eabba392ca2d9ef2b21e940fe4e0f320
+|_SHA-1: 5a6ac0c46ae976a57e476743b7aa521ee0b8412f
+| http-methods: 
+|_  Supported Methods: GET HEAD POST OPTIONS
+
+NSE: Script Post-scanning.
+Initiating NSE at 16:38
+Completed NSE at 16:38, 0.00s elapsed
+Initiating NSE at 16:38
+Completed NSE at 16:38, 0.00s elapsed
+Initiating NSE at 16:38
+Completed NSE at 16:38, 0.00s elapsed
+Read data files from: /usr/bin/../share/nmap
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+Nmap done: 1 IP address (1 host up) scanned in 38.89 seconds
